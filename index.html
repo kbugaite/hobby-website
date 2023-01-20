@@ -4,19 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Hobby page | Soapmaking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e684ca7f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-    </ul>
-   </nav>
-   <div>
-    <h1>Home Page</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perferendis provident inventore harum consequuntur illo a, perspiciatis molestias rerum fugiat quos porro tempora repellat excepturi rem! Amet quis praesentium ad.</p>
-   </div>
-</body>
+<body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav id="navbar-example2" class="navbar fixed-top bg-info-subtle px-3 mb-3">
+      <a class="navbar-brand mx-auto" href="index.html"><i class="px-2 fa-solid fa-soap fa-beat-fade"></i> Soapmaking</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Brief history</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Ways to make soap</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fs-2 text-info" href="cold_process.html">Cold process</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fs-2 text-info" href="hot_process.html">Hot process</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fs-2 text-info" href="melt_pour.html">Melt and Pour</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1" class="text-center text-uppercase fs-2 p-4">About</h4>
+        <div class="container">
+            <div class="row g-3">
+              <div class="col-md-4">
+                <img class ="img-fluid" src="\Images\soap_white.avif" title="Two white bars of soap on the table" alt="Two white bars of soap on the table">
+              </div>
+              <div class="col-md-8">
+                <p>
+                    Soap is a product for cleaning made from natural ingredients that may include both plant and animal products, including items as: animal fat, such as tallow or vegetable oil, such as castor, olive, or coconut oil.
+                    <br>
+                    <a href="https://lovelygreens.com/easy-soap-recipes-beginners/" target="_blank">Soapmaking</a> in recent years has become a quite popular hobby and/or business for some people from what used to be quite limited knowledge only to soapmakers who dedicated their lives to it.
+                    These days access to this knowledge and chemical elements required to create soap has become widely accessible and these days in many Arts & Crafts fairs we can see small soapmaker businesses or individuals selling their crafted soaps.
+                    <br>
+                    More and more people are looking to buy hand-made soaps and their popularity rose globally to a market of $34.09 billion in 2021. It is estimated to reach an impressive number of $55.29 billion in 2027.
+                    <br>
+                    Hand-crafted soaps make unique and amazing gifts, but it is not the only reason people buy and use it.
+                    For example, some are only able to use artisan soaps without certain ingredients (like parabens, petrochemicals, aluminium, and sulfates) because of the skin conditions they have.
+                    And for some it's a cleaner, more locally-sourced and more organic lifestyle choice due to the environmental impact that large-scale soap production has.
+                    <br>
+                    Like choosing the ingredients in any recipe, choosing the oils in your soap recipes is a very important step in your soap making. Each oil imparts different qualities to the final soap - creating your soap recipe is the art of balancing them to create the perfect bar of soap.
+                    Most popular oils used in soapmaking are: olive oil, palm oil, macadamia nut oil, coconut oil, apricot kernel oil, castor oil, avocado oil, grapeseed oil, shea butter, jojoba oil.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 id="scrollspyHeading2" class="text-center text-uppercase fs-2 p-4">Brief history</h4>
+        <div class="container text-justify">
+            <div class="row g-3">
+              <div class="col-md-4">
+                <p>
+                    Babylonians were making soap around 2800 B.C. and were the first one to master the art of soap making. They made soap from fats boiled with ashes. Soap was used in cleaning wool and cotton used in textile manufacture and was used medicinally for at least 5000 years.
+                    <br>
+                    The Ebers papyrus (Egypt, 1550 BC) reveals that the ancient Egyptians mixed animal and vegetable oils with alkaline salts to produce a soap-like substance.
+                    <br>
+                    According the Pliny the Elder, the Phoenicians used goat's tallow and wood ashes to create soap in 600 BC. Early Romans made soaps in the first century A.D. from urine and soap was widely known in the Roman Empire
+                    <br>
+                    The Celts made their soap from animal fat and plant ashes and they named the product saipo, from which the word soap is derived.
+                    <br>
+                    By the 7th century, soap-making was an established art in Italy, Spain and France. These countries were early centers of soap manufacturing due to their ready supply of source ingredients, such as oil from olive trees. 
+                    <br>
+                    A major step toward large-scale soap making occurred in 1791 when a French chemist, Nicholas Leblanc, patented a process for making soda ash from common salt.
+                    <br>
+                    Soda ash is obtained from ashes and can be combined with fat to form soap. This discovery made soap-making one of America's fastest-growing industries by 1850, along with other advancements and development of power to operate factories.
+                </p>
+              </div>
+              <div class="col-md-8">
+                <img class ="img-fluid mb-3" src="\Images\soap5.avif" alt="Colourful stacks of soap neatly organised in crates">
+                <p>
+                  <b>Interesting fact:</b> <i>Soap supposedly got its name from Mount Sapo in Rome. The word sapo, Latin for soap, first appeared in Pliny the Elder's Historia Naturalis. Rain would wash down the mountain mixing with animal fat and ashes, resulting in a clay mixture found to make cleaning easier.</i>
+                </p>
+              </div>
+            </div>
+        </div>
+        <h4 id="scrollspyHeading3" class="text-center text-uppercase fs-2 p-4">Gallery - My Melt & pour soaps</h4>
+        <div id="carouselExample" class="container carousel slide">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="\Images\carousel\1.jpg" class="d-block w-100" title ="A blue and purple dragon's eye soap" alt="A blue and purple dragon's eye soap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\2.jpg" class="d-block w-100" title ="An abstract black rippled soap with a white leaf on top" alt="An abstract black rippled soap with a white leaf on top">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\3.jpg" class="d-block w-100" title="Gemstone shaped soaps in purple and blue colours" alt="Gemstone shaped soaps in purple and blue colours">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\4.jpg" class="d-block w-100" title="A grey stone shaped soap" alt="A grey stone shaped soap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\5.jpg" class="d-block w-100" title="A cute green elephant soap" alt="A cute green elephant soap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\6.jpg" class="d-block w-100" title="A blue and purple owl shaped soap" alt="A blue and purple owl shaped soap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\7.jpg" class="d-block w-100" title="A pink round soap with a tree of life on it" alt="A pink round soap with a tree of life on it">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\8.jpg" class="d-block w-100" title="A black and grey dragon's eye soap" alt="A black and grey dragon's eye soap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\9.jpg" class="d-block w-100" title="A blue oval shaped soap with a branch of leaves on top" alt="A blue oval shaped soap with a branch of leaves on top">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\10.jpg" class="d-block w-100" title="Soap shaped as a tiny cosy stone cottage" alt="Soap shaped as a tiny cosy stone cottage">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\11.jpg" class="d-block w-100" title="Blue hydrangeas soap with glitter" alt="Blue hydrangeas soap with glitter">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\12.jpg" class="d-block w-100" title="A cute sleeping french bulldog soap in white" alt="A cute sleeping french bulldog soap in white">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\13.jpg" class="d-block w-100" title="Pink round soap showing a girl with flowers in her hair" alt="Pink round soap showing a girl with flowers in her hair">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\14.jpg" class="d-block w-100" title="A soap shaped like a backet with violet roses" alt="A soap shaped like a backet with violet roses">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\15.jpg" class="d-block w-100" title="A cute smiling kitten shaped soap" alt="A cute smiling kitten shaped soap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="\Images\carousel\16.jpg" class="d-block w-100" title="Three little bunny shaped soaps in white and cream" alt="Three little bunny shaped soaps in white and cream">
+                  </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          
+        </div>
+<br>
+<div class="container text-center">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="\Images\soap_natural_packaging.avif" class="card-img-top" alt="Soaps made by cold process">
+        <div class="card-body">
+          <p class="card-text">Cold process soap making is the original, traditional method of making soap by combining fat or oil (animal or plant based) with sodium hydroxide lye then blending in addition of essential oils and colorants as required.</p>
+          <a href="cold_process.html" class="btn bg-info text-light fs-5">Learn to make Cold process soap</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="\Images\soap4.avif" class="card-img-top" alt="Soaps made by hot process">
+        <div class="card-body">
+          <p class="card-text">Hot process uses an external heat source to bring the soap to gel phase, where it is then poured into the mold.
+            The biggest benefit of this method is that soap made by hot process does not need curing. Usually it utilises a crockpot.</p>
+          <a href="hot_process.html" class="btn bg-info text-light fs-5">Learn to make Hot process soap</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="\Images\soap6.avif" class="card-img-top" alt="Soaps made by melt and pour process">
+        <div class="card-body">
+          <p class="card-text">Melt & pour method requires you only to melt the premade soap base on the hob or simply in the microwave, customize it with your favorite colors and scents, and pour into a mold.
+            A great option for beginners.</p>
+          <a href="melt_pour.html" class="btn bg-info text-light fs-5">Learn to make Melt & Pour soap</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+    <footer id="sticky-footer" class="flex-shrink-0 p-4 bg-info-subtle">
+      <div class="row">
+      <div class="col">
+        <div id="custom-search-input">
+          <div class="input-group col-md-12">
+              <input type="text" class="  search-query form-control fs-5" placeholder="Search" />
+              <span class="input-group-btn">
+                  <button class="btn btn-info" type="button">
+                    <i class="fas fa-search fs-5 p-2 text-light"></i>
+                  </button>
+              </span>
+          </div>
+      </div>
+      </div>
+      <div class="col container text-center ">
+        <small>Thank you for visiting!</small>
+        <br>
+        <small>Created by &copy; Kristina B.</small>
+      </div>
+      <div class="col container text-center">
+        <a href="#scrollspyHeading1" class="btn bg-info text-light fs-5"><i class="fa-solid fa-caret-up"></i> Back to top</a>
+      </div>
+    </div>
+    </footer>
+  </body>
 </html>
