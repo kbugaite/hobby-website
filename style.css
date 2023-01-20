@@ -1,0 +1,66 @@
+.image {
+
+    max-width: 100%;
+    height: auto;
+
+}
+.nav {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vh;
+    font-weight: 400;
+    gap: 20px;
+}
+a.nav-link {
+    color: #18cff8 !important;
+    font-weight: 600;
+}
+a.nav-link.active {
+    background-color: #18cff8!important;
+    color: white!important;
+}
+a.nav-link:hover {
+    background-color: #5de1ff!important;
+    color: rgb(253, 251, 178)!important;
+}
+.dropdown-item {
+    background-color: rgb(253, 251, 178)!important;
+}
+.dropdown-menu {
+    background-color: rgb(253, 251, 178)!important;
+}
+.card-body {
+    background-color: rgb(253, 251, 178)!important;
+}
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 7.5vh;
+    font-weight: 600;
+    color: rgba(34, 34, 34, 0.90);
+    gap: 10px;
+}
+.soapmaking {
+    max-width: 45rem;
+    justify-content: center;
+}
+.scrollspy-example {
+    margin-top: 6rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.carousel {
+    width: 50%;
+    margin: auto;
+}
+@media screen and (max-width: 800px) {
+    nav{
+        height: 40%;
+    }
+    .nav-link{
+        padding: 0.25em;
+    }
+    .scrollspy-example {
+        margin-top: 250px;
+        }
+    }
